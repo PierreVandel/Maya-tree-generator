@@ -1,12 +1,15 @@
 # Maya-tree-generator
 
 Author: Pierre VANDEL
+MAYA Version: 2023
 02/11/2022
 
 -> PRESENTATION:
 
 Maya script with an interface allowing to generate randomly stylized trees, random number of branches, random position, shape of the trunk and random branches...
 Its use does not require any additional files, plugins or scenes. It only uses native Maya features.
+
+
 
 -> INPUTS:
 
@@ -22,5 +25,5 @@ Clean trees: Removes all trees from the scene.
 -> TO TEST THE SCRIPT:
 
 All default inputs give a first preview.
-The values ​​of the inputs are limited so as not to have too long a generation time.
+The values of the inputs are limited so as not to have too long a generation time.
 To test the snap, create a plane with a scale of 10, add deformations on the Y axis, check the "snap to" checkbox and enter a name of the transform of the plane in the input ex: "pPlane1"
